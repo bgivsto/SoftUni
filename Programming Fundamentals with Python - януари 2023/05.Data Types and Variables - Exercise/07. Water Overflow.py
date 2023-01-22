@@ -6,7 +6,6 @@ for i in range(n):
     water = int(input())
     if liters + water > capacity:
         print("Insufficient capacity!")
-        continue
     else:
         liters += water
 
